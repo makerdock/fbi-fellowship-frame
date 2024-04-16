@@ -80,7 +80,7 @@ export default async function Home({ searchParams }: NextServerPageProps) {
           : null}
 
         {state.frame === "evaluate" && shareForm ?
-          <FrameButton action="link" target={`https://www.google.com`}>
+          <FrameButton action="link" target={`https://0xfbi.com/based-fellowship`}>
             I want in
           </FrameButton> : null
         }
